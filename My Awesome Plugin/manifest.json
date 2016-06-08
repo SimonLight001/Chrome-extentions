@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "My awesome plugin",
+    "description": "just a test bro",
+    "version": "0.1",
+
+    "background":{
+        "page": "background.html"
+    },
+    "browser_action": {
+        "popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+
+    "permissions": ["notifications"]
+}
